@@ -73,6 +73,19 @@ export interface transactionadddata {
   id? : number;
 }
 
+export interface logintype {
+  email : string;
+  password : string
+}
+export interface registype {
+  email : string;
+  password : string;
+  name : string;
+  confirmpassword : string;
+  id : number;
+}
+
+
 export interface transactionState {
     [x: string]: any;
     transactions: transactionadddata
