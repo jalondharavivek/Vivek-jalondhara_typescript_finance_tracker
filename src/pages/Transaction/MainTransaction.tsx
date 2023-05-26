@@ -58,10 +58,10 @@ const Mainfinance = () => {
       setGrp(false);
       setGrpval(grpval)
     } else {
-      const personGroupedByColor = groupBy(alltransaction, grpval);
-      console.log(personGroupedByColor, "vivekdelet1logup");
+      const grpvaldata = groupBy(alltransaction, grpval);
+      console.log(grpvaldata, "vivekdelet1logup");
 
-      setGroupby(personGroupedByColor);
+      setGroupby(grpvaldata);
       setGrp(true);
       setGrpval(grpval)
     }
