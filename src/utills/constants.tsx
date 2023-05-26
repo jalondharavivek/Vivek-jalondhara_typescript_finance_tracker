@@ -32,7 +32,6 @@ export const accountOptions = [
 ];
 
 export const groupByOptions = [
-  { label: "-- none --", value: "" },
   { label: "Month Year", value: "month_year" },
   { label: "Transaction Type", value: "type" },
   { label: "From Account", value: "from_account" },
@@ -51,12 +50,14 @@ export const columnTypes = {
   notes: "string",
 };
 export const selectgroupby = [
+
+  { label: "-- none --", value: "" },
   { value: "monthyear", label: "Month Year" },
   { value: "transactiontype", label: "Transaction Type" },
   { value: "fromaccount", label: "From Account" },
   { value: "toaccount", label: "To Account" },
   { value: "amount", label: "Amount" },
-  { value: "none", label: "none" },
+  // { value: "none", label: "none" },
 ];
 
 export interface transactionadddata {
